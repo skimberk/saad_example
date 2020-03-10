@@ -1,7 +1,7 @@
 [
   {
     "name":"testChange",
-    "type": "codeChange",
+    "type": "fileChange",
     "config":{
         "file":"test.txt"
 
