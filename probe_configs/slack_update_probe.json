@@ -8,7 +8,7 @@
     }
   },
   {
-    "type": "slackBot",
+    "type": "slackBotSimple",
     "config": {
       "condition": "{testChange}",
       "channel": "monitoring-slack-test-public",
