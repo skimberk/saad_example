@@ -3,7 +3,7 @@
     "type": "slackBotSimple",
     "config": {
       "channel": "monitoring-slack-test-public",
-      "message": "David's test probe worked in saad_example."
+      "message": "Davids test probe worked in saad_example."
     }
   }
 ]
