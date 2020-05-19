@@ -1,0 +1,24 @@
+[
+  {
+    "name": "criticalMethodChanged",
+    "type": "codeChange",
+    "config": {
+      "file": "critical.py",
+      "target": "critical_method",
+      "targetType": "function"
+    }
+  },
+  {
+    "name": "user",
+    "type": "lastCommitUser",
+    "config": {}
+  },
+  {
+    "type": "slackBotSimple",
+    "config": {
+      "condition": "{criticalMethodChanged}",
+      "channel": "monitoring-slack-test-public",
+      "message": "{user} changed critical_method()!  Better make sure things are okay!"
+    }
+  }
+]
