@@ -3,7 +3,7 @@
 
 def critical_method():
     # example method tracked in critical_method_change_notify probe
-    return 4
+    return 5
 
 
 if __name__ == "__main__":
