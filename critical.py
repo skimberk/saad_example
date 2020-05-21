@@ -1,11 +1,10 @@
-# example file
+class CrazyClass():
+	def unimportant_thing(self, x, y, z):
+		for i in range(x, y):
+			z()
 
+	def critical_method(self):
+		super_critical_thing()
 
-def critical_method():
-    # example method tracked in critical_method_change_notify probe
-    return 5
-
-
-if __name__ == "__main__":
-    critical = critical_method()
-    print("critical_method returned: " + str(critical))
+	def more_random_stuff(self, a, b, c):
+		return a(b(c()))
