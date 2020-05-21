@@ -4,6 +4,7 @@ class CrazyClass():
 			z()
 
 	def critical_method(self):
+		print('modifying critical!!!')
 		super_critical_thing()
 
 	def more_random_stuff(self, a, b, c):
