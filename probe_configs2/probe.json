@@ -1,9 +1,0 @@
-[
-  {
-    "type": "slackBotSimple",
-    "config": {
-      "channel": "monitoring-slack-test-public",
-      "message": "Davids test probe worked in saad_example."
-    }
-  }
-]
